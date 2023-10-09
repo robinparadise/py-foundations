@@ -1,5 +1,7 @@
 # Introduction to Python:
 
+Python is like a magical language that computers can understand. People use it to tell computers what to do. It's named after a snake, but you don't have to worry about snakes while using it; it's just a name!
+
 Python is a high-level, versatile, and general-purpose programming language known for its simplicity and readability. It was created by Guido van Rossum and first released in 1991. Python is designed to be easy to learn and understand, making it an excellent choice for beginners and experienced developers alike. It emphasizes code readability, which is achieved through the use of whitespace (indentation) to define code blocks, rather than relying on explicit braces or keywords.
 
 Key Characteristics of Python:

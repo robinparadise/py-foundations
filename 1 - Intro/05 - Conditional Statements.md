@@ -10,7 +10,7 @@ The `if` statement is used to execute a block of code if a specified condition i
 age = 20
 
 if age >= 18:
-    print("You are an adult.")
+  print("You are an adult.")
 ```
 
 In this example, the code inside the `if` block will only execute if the condition `age >= 18` is true.
@@ -58,12 +58,12 @@ x = 10
 y = 5
 
 if x > 5:
-    if y > 3:
-        print("Both conditions are true.")
-    else:
-        print("The first condition is true, but the second is false.")
+  if y > 3:
+    print("Both conditions are true.")
+  else:
+    print("The first condition is true, but the second is false.")
 else:
-    print("The first condition is false.")
+  print("The first condition is false.")
 ```
 
 This code checks multiple conditions and provides different outcomes based on the combinations of these conditions.

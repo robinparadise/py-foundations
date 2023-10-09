@@ -65,12 +65,12 @@ Your first Python program is typically a simple "Hello, World!" program, which i
 
 3. **Write the Code**:
 
-   ```python
-   # This is a simple Python program that prints "Hello, World!" to the console.
-   print("Hello, World!")
-   ```
+```python
+# This is a simple Python program that prints "Hello, World!" to the console.
+print("Hello, World!")
+```
 
-   This code consists of a single line that uses the `print()` function to display the text "Hello, World!".
+This code consists of a single line that uses the `print()` function to display the text "Hello, World!".
 
 4. **Save the File**: Save the code in a file with a ".py" extension. For example, you can save it as "hello.py".
 
