@@ -76,3 +76,28 @@ print("Sum of even numbers from 1 to 100:", total)
 This program uses a `for` loop to iterate through numbers from 1 to 100 and adds the even numbers to the `total` variable.
 
 Loops are essential for performing repetitive tasks efficiently in Python, whether it's processing data, iterating through collections, or performing calculations.
+
+
+**Exercise:**
+
+**1. FizzBuzz:**
+FizzBuzz is a classic programming exercise that prints the numbers from 1 to 100. But for multiples of three, print "Fizz" instead of the number and for the multiples of five, print "Buzz". For numbers that are multiples of both three and five, print "FizzBuzz".
+
+**Example:**
+```python
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+```

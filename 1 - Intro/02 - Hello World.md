@@ -80,3 +80,35 @@ This code consists of a single line that uses the `print()` function to display 
 
 That's it! You've successfully created and run your first Python program. This basic example demonstrates how to use the `print()` function to display output in Python, which is a fundamental concept in programming. You can build on this knowledge to explore more advanced Python programming topics and projects.
 
+___
+
+#Long Paths Window:
+
+In Windows 10, there is a way to enable the use of file paths longer than 260 characters, which is the default limit imposed by the Windows operating system. You can do this by enabling "LongPathsEnabled" in the Windows Registry. Here's how you can do it:
+
+**Note: Modifying the Windows Registry can be risky if not done correctly. Please follow these instructions carefully, and consider backing up your Registry before making any changes.**
+
+1. **Open the Registry Editor:**
+   Press `Win + R`, type `regedit`, and press Enter. This will open the Windows Registry Editor.
+
+2. **Navigate to the correct key:**
+   In the Registry Editor, navigate to the following key:
+
+   ```
+   HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem
+   ```
+
+3. **Create or modify a DWORD value:**
+   Right-click on the right side of the Registry Editor window and select "New" > "DWORD (32-bit) Value." Name it `LongPathsEnabled` (without the quotes).
+
+4. **Change the value data:**
+   Double-click on the `LongPathsEnabled` entry you just created and set its value data to `1`. This will enable long file paths.
+
+5. **Click "OK" and close the Registry Editor.**
+
+6. **Restart your computer:**
+   Changes to the Registry often require a system restart to take effect. Reboot your computer for the changes to become active.
+
+After making these changes, you should be able to use file paths longer than 260 characters without issues.
+
+Please be cautious when working with the Windows Registry, as making incorrect changes can affect the stability and functionality of your system. If you are not comfortable with these steps, it's a good idea to consult with someone experienced or seek professional assistance.
