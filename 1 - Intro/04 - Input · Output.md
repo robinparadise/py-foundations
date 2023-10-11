@@ -1,4 +1,4 @@
-#Input and output (I/O):
+# Input and output (I/O):
 
 Input and output (I/O) in Python refers to the process of getting data into a Python program (input) and sending data out of a Python program (output). In Python, you can perform input and output operations using a variety of functions and methods. Here, we'll cover some of the most common ways to handle I/O in Python.
 
