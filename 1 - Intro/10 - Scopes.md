@@ -92,3 +92,67 @@ print(x)  # Accesses the global x
 In this example, the local variable `x` within the function shadows the global variable `x` temporarily.
 
 Understanding the scope and lifetime of variables is crucial for avoiding unexpected behavior in your code and ensuring that variables are used in the intended way. It's important to use variable names that don't conflict with variables in different scopes to minimize confusion.
+
+**Advance Exercise:**
+
+**1.** What is the output of the following code?
+
+```python
+def my_function():
+    print("Hello from a function")
+
+my_function()
+```
+
+- [ ] `Hello from a function`
+- [ ] `Hello from a function, Hello from a function`
+- [ ] `Hello from a function, Hello from main`
+- [ ] `Hello from main, Hello from a function`
+```
+
+**2.** What is the output of the following code?
+
+```python
+def my_function():
+    print("Hello from a function")
+
+print("Hello from main")
+my_function()
+```
+
+- [ ] `Hello from a function`
+- [ ] `Hello from a function, Hello from a function`
+- [ ] `Hello from a function, Hello from main`
+- [ ] `Hello from main, Hello from a function`
+```
+
+**3.** Advance exercise of Shadowing in Python
+
+```python
+x = 5
+
+def my_function():
+    x = 3
+    print(x)
+
+my_function()
+print(x)
+```
+
+- [ ] `3, 5`
+- [ ] `5, 3`
+- [ ] `3, 3`
+- [ ] `5, 5`
+```
+
+**4.** Fix the following code?
+
+```python
+var = 100
+def func():
+  print(var)
+  var = 200
+
+func()
+```
+
