@@ -99,21 +99,33 @@ def sum_odd_numbers(numbers):
         if num % 2 != 0:
             total += num
     return total
+
+print(sum_odd_numbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
+# Output: 25
+
 ```
 
 **2. Write a function that takes a list of numbers and returns a new list with unique elements of the first list.**
 
+```python
+# write code
+def unique_list(numbers):
+    """Return a list of unique elements from a list."""
+    return list(set(numbers))
+
+print(unique_list([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3]))
+# Output [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+```
 
 **3. Write a function that takes a list and returns a new list with unique elements of the first list, in the same order.**
 
 ```python
 def ordered_unique_list(numbers):
-    """Return a list of unique elements from a list, in the order of the first list."""
-    unique_nums = []
-    for num in numbers:
-        if num not in unique_nums:
-            unique_nums.append(num)
-    return unique_nums
+    # write code
+
+print(ordered_unique_list([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3]))
+# Output [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
 ```
 
 **4. Write a function that takes a list of numbers and returns a new list with only the even numbers from the first list.**
@@ -126,11 +138,42 @@ def even_numbers(numbers):
         if num % 2 == 0:
             evens.append(num)
     return evens
+
+print(even_numbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
+# Output: [2, 4, 6, 8, 10]
+
 ```
 
 **5. Write a function that takes a list of numbers and returns a new list with only the odd numbers from the first list.**
 
+```python
+def odd_numbers(numbers):
+
+
+print(odd_numbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
+# Output: [1, 3, 5, 7, 9]
+```
+
 **6. Write a function that takes a list of numbers and returns a new list with only the prime numbers from the first list.**
 
+```python
+def prime_numbers(numbers):
+
+
+print(prime_numbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
+# Output: [2, 3, 5, 7]
+
+```
 
 **7. Write a function that takes a list of numbers and returns a new list with only the palindromes from the first list.**
+
+```python
+# explain palindromes: https://es.wikipedia.org/wiki/Pal%C3%ADndromo
+def palindromes(numbers):
+    """Return a list of palindromes from a list of numbers."""
+
+print(palindromes([1, 2, 3, 10, 11, 12, 13, 14, 22, 23, 33, 44, 55, 66, 77, 88, 99, 101, 111, 252, 262, 292, 300, 301]))
+# Output: [1, 2, 3, 11, 22, 33, 44, 55, 66, 77, 88, 99, 101, 111, 252, 262, 292]
+
+```
+
