@@ -7,7 +7,7 @@ Write a Python function that takes a tuple of numbers as input and returns a new
 ```python
 def square_tuple(input_tuple):
   # write code
-  return (1, 4, 9, 16, 25)
+  return tuple(x**2 for x in input_tuple)
 
 numbers = (1, 2, 3, 4, 5)
 result = square_tuple(numbers)
