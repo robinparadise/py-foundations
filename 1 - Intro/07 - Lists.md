@@ -110,25 +110,81 @@ favorite_foods.append("sushi")
 
 **3. Print the list and make sure the new items were added.**
 
+```python
+# Example:
+print(favorite_foods)  # Output: ["pasta", "pizza", "ice cream", "cheeseburgers", "sushi"]
+```
+
 **4. Print the second item in the list.**
+
+```python
+# Example:
+print(favorite_foods[1])  # Output: pizza
+```
 
 **5. Print the last item in the list.**
 
+```python
+# Example:
+print(favorite_foods[-1])  # Output: sushi
+```
+
+
 **6. Change the second item in the list to something new.**
+
+```python
+# Example:
+favorite_foods[1] = "cake"
+```
+
 
 **7. Remove the last item from the list & print the new list.**
 
-more advance exercise
+```python
+# Example:
+favorite_foods.pop()
+print(favorite_foods)  # Output: ["pasta", "cake", "ice cream", "cheeseburgers"]
+```
 
 **8. Create a list of numbers from 1 to 10.**
 
+```python
+# Example:
+numbers = list(range(1, 11))
+print(numbers)  # Output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+```
+
 **9. Print the numbers 1 to 5.**
+
+```python
+# Example:
+print(numbers[:5])  # Output: [1, 2, 3, 4, 5]
+```
+
 
 **10. Print the even numbers from the list.**
 
+```python
+# Example:
+print(numbers[1::2])  # Output: [2, 4, 6, 8, 10]
+```
+
+
 **11. Print the odd numbers from the list.**
 
+```python
+# Example:
+print(numbers[::2])  # Output: [1, 3, 5, 7, 9]
+```
+
 **12. Print the multiples of 5 from the list.**
+
+```python
+# Example:
+print(numbers[4::5])  # Output: [5, 10]
+```
+
 
 
 

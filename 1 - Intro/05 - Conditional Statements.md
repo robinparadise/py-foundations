@@ -83,6 +83,13 @@ else:
     print("The number is zero.")
 ```
 
-This program takes user input, checks the number, and prints the appropriate message based on the conditions.
+**Exercise:**
+Let's create a program that checks whether a student's grade is passing or failing. Use `if`, `elif`, and `else` statements.
 
-Conditional statements are fundamental for controlling the logic and behavior of your Python programs. They allow you to create dynamic and responsive code that reacts to different situations and inputs.
+**Solution:**
+```python
+grade = int(input("Enter your grade: "))
+
+# code here
+
+```
