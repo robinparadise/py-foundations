@@ -55,6 +55,26 @@ with open("output.txt", "w") as file:
 
 This code creates a file named "output.txt" and writes two lines of text to it.
 
+3.1. **Reading files:**
+You can read data from files using the `read()` method of file objects. Here's an example:
+
+```python
+with open("output.txt", "r") as file:
+  contents = file.read()
+  print(contents)
+```
+
+3.2. **Reading by lines:**
+You can also read files line by line using the `readline()` method of file objects. Here's an example:
+
+```python
+with open("output.txt", "r") as file:
+  line = file.readline()
+  while line:
+    print(line)
+    line = file.readline()
+```
+
 4. **Standard Error (stderr):**
 Python has two standard streams, stdout (standard output) and stderr (standard error). You can write error messages to stderr using `sys.stderr.write()`:
 
