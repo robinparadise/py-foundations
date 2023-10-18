@@ -49,8 +49,8 @@ Python allows you to write data to files using the `open()` function and file ob
 
 ```python
 with open("output.txt", "w") as file:
-file.write("This is a line of text.\n")
-file.write("This is another line of text.\n")
+  file.write("This is a line of text.\n")
+  file.write("This is another line of text.\n")
 ```
 
 This code creates a file named "output.txt" and writes two lines of text to it.
