@@ -14,7 +14,7 @@ current_directory = os.getcwd()
 file_list = os.listdir(current_directory)
 
 for file in file_list:
-    print(file)
+   print(file)
 ```
 
    - `shutil` Module: The `shutil` module provides higher-level file operations, including copying, moving, and removing files and directories.

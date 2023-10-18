@@ -20,6 +20,7 @@ Creating a comprehensive syllabus for learning Python from scratch to an advance
 - Scope and lifetime of variables
 - Introduction to Python modules and libraries
 - Working with the Python Standard Library
+- Intro to Regular Expressions
 
 **Level 2: Intermediate Python**
 *Data Structures*
