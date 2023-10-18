@@ -47,9 +47,5 @@ Creating a comprehensive syllabus for learning Python from scratch to an advance
 - Map, filter, and reduce functions
 - Decorators and closures
 
-*Advanced Topics*
-- Generators and iterators
-- Threading and multiprocessing
-- Regular expressions (regex)
 
 Remember that learning Python is a journey, and your progress may vary depending on your background and the time you can dedicate to study. Feel free to adjust the syllabus according to your specific goals and interests. Additionally, continuous practice, projects, and real-world applications are essential for solidifying your Python skills and becoming an advanced Python programmer.
