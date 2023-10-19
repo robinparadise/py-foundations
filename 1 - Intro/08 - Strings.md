@@ -94,4 +94,17 @@ text = "Hello, World!"
 reversed_text = text[::-1]  # "!dlroW ,olleH"
 ```
 
+**9. String find with `in`:**
+You can use the `in` operator to check if a string contains a substring.
+
+**Example:**
+```python
+text = "Hello, World!"
+contains_hello = "Hello" in text  # True
+contains_python = "Python" in text  # False
+
+print(contains_hello)
+print(contains_python)
+```
+
 These are some of the common string manipulation and formatting techniques in Python. They are useful for working with text data, generating dynamic messages, and formatting output in a readable and organized way.
