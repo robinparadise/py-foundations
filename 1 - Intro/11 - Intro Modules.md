@@ -31,6 +31,16 @@ print(message)  # Output: Hello, Alice!
 print(my_module.PI)  # Output: 3.14159
 ```
 
+- **Importing Specific Items**: You can import specific items from a module using the `from` keyword.
+
+**Example**:
+```python
+from my_module import greet
+
+message = greet("Alice")
+print(message)  # Output: Hello, Alice!
+```
+
 **2. Python Libraries:**
 
 - **Definition**: A library is a collection of modules that provide additional functionality to Python. Libraries simplify complex tasks by providing pre-written code for common tasks.

@@ -69,6 +69,47 @@ numbers = [1, 2, 3, 4, 5]
 subset = numbers[1:4]  # [2, 3, 4]
 ```
 
+Slicing parameters:
+   - `start`: The starting index (inclusive).
+   - `stop`: The ending index (exclusive).
+   - `step`: The amount by which the index increases (default is 1).
+
+**Example:**
+```python
+numbers = [1, 2, 3, 4, 5]
+subset = numbers[1:4:2]  # [2, 4]
+```
+
+You can also use negative indices to slice a list from the end.
+
+**Example:**
+```python
+numbers = [1, 2, 3, 4, 5]
+subset = numbers[-3:-1]  # [3, 4]
+```
+
+Slice from the beginning of the list:
+
+```python
+numbers = [1, 2, 3, 4, 5]
+subset = numbers[:3]  # [1, 2, 3]
+```
+
+Slice until the end of the list:
+
+```python
+numbers = [1, 2, 3, 4, 5]
+subset = numbers[3:]  # [4, 5]
+```
+
+Reverse a list:
+
+```python
+numbers = [1, 2, 3, 4, 5]
+subset = numbers[::-1]  # [5, 4, 3, 2, 1]
+```
+
+
 **7. List Concatenation:**
 You can concatenate (combine) two or more lists using the `+` operator.
 
@@ -183,6 +224,13 @@ print(numbers[::2])  # Output: [1, 3, 5, 7, 9]
 ```python
 # Example:
 print(numbers[4::5])  # Output: [5, 10]
+```
+
+**13. Reverse the list.**
+
+```python
+# Example:
+print(numbers[::-1])  # Output: [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
 ```
 
 

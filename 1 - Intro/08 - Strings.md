@@ -85,4 +85,13 @@ message = f"The total cost is ${total:.2f}."
 # "The total cost is $21.59."
 ```
 
+**8. String Reverse:**
+You can reverse a string using slicing.
+
+**Example:**
+```python
+text = "Hello, World!"
+reversed_text = text[::-1]  # "!dlroW ,olleH"
+```
+
 These are some of the common string manipulation and formatting techniques in Python. They are useful for working with text data, generating dynamic messages, and formatting output in a readable and organized way.
