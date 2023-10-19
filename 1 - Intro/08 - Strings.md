@@ -108,3 +108,12 @@ print(contains_python)
 ```
 
 These are some of the common string manipulation and formatting techniques in Python. They are useful for working with text data, generating dynamic messages, and formatting output in a readable and organized way.
+
+**10. String count:**
+You can use the `count()` method to count the number of occurrences of a substring in a string.
+
+**Example:**
+```python
+text = "Hello, World!"
+count = text.count("l")  # 3
+```
