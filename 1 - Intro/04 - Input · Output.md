@@ -14,17 +14,15 @@ print("Hello, " + name)
 
  When you run this code, it will prompt you to enter your name, and then it will greet you using the entered name.
 
-2. **Command-Line Arguments:**
- You can access command-line arguments passed to your Python script using the `sys.argv` list from the `sys` module. Here's an example:
+Convert to int or float:
 
 ```python
-import sys
+age = int(input("Enter your age: "))
+print("You are " + str(age) + " years old.")
 
-if len(sys.argv) > 1:
-  print("Hello, " + sys.argv[1])
+height = float(input("Enter your height (in meters): "))
+print("Your height is " + str(height) + " meters.")
 ```
-
-You can run this script from the command line and pass your name as an argument like this: `python script.py John`. It will greet you with "Hello, John."
 
 **Output in Python:**
 
@@ -75,7 +73,36 @@ with open("output.txt", "r") as file:
     line = file.readline()
 ```
 
-4. **Standard Error (stderr):**
+Different operating systems use different line endings. For example, Windows uses `\r\n` (carriage return followed by a newline) while Linux and macOS use `\n` (newline). Python automatically converts line endings to `\n` when reading files.
+
+3.3. **Reading all lines:**
+You can read all lines from a file into a list using the `readlines()` method of file objects. Here's an example:
+
+```python
+with open("output.txt", "r") as file:
+  lines = file.readlines()
+  print(lines)
+```
+
+Differences to note between `read()`, `readline()`, and `readlines()`:
+
+- `read()` returns the entire contents of the file as a single string.
+- `readline()` returns the next line of the file as a string.
+- `readlines()` returns a list of lines from the file.
+
+4. **Command-Line Arguments:**
+ You can access command-line arguments passed to your Python script using the `sys.argv` list from the `sys` module. Here's an example:
+
+```python
+import sys
+
+if len(sys.argv) > 1:
+  print("Hello, " + sys.argv[1])
+```
+
+You can run this script from the command line and pass your name as an argument like this: `python script.py John`. It will greet you with "Hello, John."
+
+4.2. **Standard Error (stderr):**
 Python has two standard streams, stdout (standard output) and stderr (standard error). You can write error messages to stderr using `sys.stderr.write()`:
 
 ```python
@@ -84,4 +111,9 @@ import sys
 sys.stdout.write("This is an error message.\n")
 ```
 
-These are some of the basic techniques for input and output in Python. Depending on your specific needs, you can explore additional I/O methods, such as reading from and writing to CSV files, JSON files, or interacting with external APIs and databases.
+**Explanaition about standard output and standard error:**
+
+- **Standard output (stdout):** This is the default stream that is used to write output to the console. For example, when you use the `print()` function, it writes to stdout.
+
+- **Standard error (stderr):** This is the default stream that is used to write error messages to the console. For example, when you use `sys.stderr.write()`, it writes to stderr.
+
