@@ -1,4 +1,4 @@
-#Loops:
+# Loops:
 
 Loops in Python (for and while) allow you to execute a block of code repeatedly. They are essential for iterating through sequences, processing data, and automating repetitive tasks. Here, we'll cover the basics of for and while loops in Python and provide examples.
 

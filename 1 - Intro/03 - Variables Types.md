@@ -1,4 +1,4 @@
-#TL;DR
+# TL;DR
 
 **Variables:**
 Think of a variable like a box where you can keep things. In Python, you can create a variable to store information. For example, you can create a variable called "apple" and put the word "red" in it. Later, you can use the variable "apple" to remember that it's red.

@@ -1,4 +1,4 @@
-#Lists:
+# Lists:
 
 In Python, lists are ordered collections of items that allow you to store and manipulate data. Lists are versatile and can contain elements of different data types, including integers, strings, floats, and even other lists. Here, we'll cover basic list operations and common list manipulations.
 

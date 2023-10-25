@@ -1,4 +1,4 @@
-#Python Standard Library:
+# Python Standard Library:
 
 The Python Standard Library is a comprehensive collection of modules that come bundled with Python and provide a wide range of functionalities for various tasks. These modules are readily available, so you don't need to install them separately. Here are some examples of how to work with the Python Standard Library for common tasks:
 

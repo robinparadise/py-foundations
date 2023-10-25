@@ -1,4 +1,4 @@
-Creating a comprehensive syllabus for learning Python from scratch to an advanced level requires careful planning and consideration of the topics and skills you want to cover. Below is a suggested syllabus that you can use as a foundation for your Python learning journey. Keep in mind that the pacing and depth of each topic can vary depending on your specific needs and goals.
+# Syllabus
 
 **Level 1: Introduction to Python**
 *Introduction*
@@ -47,6 +47,5 @@ Creating a comprehensive syllabus for learning Python from scratch to an advance
 - Lambda functions and higher-order functions
 - Map, filter, and reduce functions
 - Decorators and closures
-
 
 Remember that learning Python is a journey, and your progress may vary depending on your background and the time you can dedicate to study. Feel free to adjust the syllabus according to your specific goals and interests. Additionally, continuous practice, projects, and real-world applications are essential for solidifying your Python skills and becoming an advanced Python programmer.

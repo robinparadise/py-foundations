@@ -1,4 +1,4 @@
-#Functions:
+# Functions:
 
 Defining functions, using them, specifying parameters, and handling return values are fundamental concepts in Python. Functions allow you to encapsulate reusable blocks of code and make your programs modular and organized. Let's explore these concepts in detail.
 

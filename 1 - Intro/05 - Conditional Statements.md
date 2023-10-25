@@ -1,4 +1,4 @@
-#Conditional statements:
+# Conditional statements:
 
 Conditional statements in Python (if, elif, else) allow you to control the flow of your program based on certain conditions. They help you make decisions and execute specific code blocks depending on whether conditions are met or not. Here, we'll cover the basics of conditional statements and provide examples.
 

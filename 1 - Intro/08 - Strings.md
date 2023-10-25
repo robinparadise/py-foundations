@@ -1,4 +1,4 @@
-#Strings:
+# Strings:
 
 String manipulation and formatting in Python are essential for working with text data. Python provides numerous built-in string methods and formatting techniques to modify, concatenate, and format strings. Here, we'll cover some common string manipulation and formatting operations.
 

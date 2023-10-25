@@ -1,3 +1,5 @@
+# Scopes
+
 In Python, the scope and lifetime of variables are crucial concepts that determine where and for how long a variable is accessible within your program. Understanding these concepts is essential for writing clean and bug-free code. Here's an overview:
 
 **1. Scope of Variables:**
@@ -103,7 +105,7 @@ def my_function():
 
 my_function()
 ```
-
+```
 - [ ] `Hello from a function`
 - [ ] `Hello from a function, Hello from a function`
 - [ ] `Hello from a function, Hello from main`
@@ -119,7 +121,7 @@ def my_function():
 print("Hello from main")
 my_function()
 ```
-
+```
 - [ ] `Hello from a function`
 - [ ] `Hello from a function, Hello from a function`
 - [ ] `Hello from a function, Hello from main`
@@ -138,7 +140,7 @@ def my_function():
 my_function()
 print(x)
 ```
-
+```
 - [ ] `3, 5`
 - [ ] `5, 3`
 - [ ] `3, 3`
