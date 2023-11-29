@@ -93,12 +93,12 @@ Functions are a powerful way to organize and reuse code in Python. They allow yo
 
 ```python
 def sum_odd_numbers(numbers):
-    """Sum the odd numbers in a list of numbers and return the result."""
-    total = 0
-    for num in numbers:
-        if num % 2 != 0:
-            total += num
-    return total
+  """Sum the odd numbers in a list of numbers and return the result."""
+  total = 0
+  for num in numbers:
+    if num % 2 != 0:
+      total += num
+  return total
 
 print(sum_odd_numbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
 # Output: 25
@@ -110,8 +110,8 @@ print(sum_odd_numbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
 ```python
 # write code
 def unique_list(numbers):
-    """Return a list of unique elements from a list."""
-    return list(set(numbers))
+  """Return a list of unique elements from a list."""
+  return list(set(numbers))
 
 print(unique_list([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3]))
 # Output [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -121,7 +121,7 @@ print(unique_list([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3]))
 
 ```python
 def ordered_unique_list(numbers):
-    # write code
+  # write code
 
 print(ordered_unique_list([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3]))
 # Output [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -132,12 +132,12 @@ print(ordered_unique_list([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3]))
 
 ```python
 def even_numbers(numbers):
-    """Return a list of even numbers from a list of numbers."""
-    evens = []
-    for num in numbers:
-        if num % 2 == 0:
-            evens.append(num)
-    return evens
+  """Return a list of even numbers from a list of numbers."""
+  evens = []
+  for num in numbers:
+    if num % 2 == 0:
+      evens.append(num)
+  return evens
 
 print(even_numbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
 # Output: [2, 4, 6, 8, 10]
@@ -158,7 +158,15 @@ print(odd_numbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
 
 ```python
 def prime_numbers(numbers):
-
+  primes = []
+  for num in numbers:
+    if num > 1:
+      for i in range(2, num):
+        if num % i == 0:
+          break
+      else:
+        primes.append(num)
+  return primes
 
 print(prime_numbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
 # Output: [2, 3, 5, 7]
@@ -170,7 +178,12 @@ print(prime_numbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
 ```python
 # explain palindromes: https://es.wikipedia.org/wiki/Pal%C3%ADndromo
 def palindromes(numbers):
-    """Return a list of palindromes from a list of numbers."""
+  """Return a list of palindromes from a list of numbers."""
+  palindromes = []
+  for num in numbers:
+    if str(num) == str(num)[::-1]:
+      palindromes.append(num)
+  return palindromes
 
 print(palindromes([1, 2, 3, 10, 11, 12, 13, 14, 22, 23, 33, 44, 55, 66, 77, 88, 99, 101, 111, 252, 262, 292, 300, 301]))
 # Output: [1, 2, 3, 11, 22, 33, 44, 55, 66, 77, 88, 99, 101, 111, 252, 262, 292]
