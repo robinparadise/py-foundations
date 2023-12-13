@@ -418,6 +418,38 @@ Build a zoo management system with classes like `Animal`, `Mammal`, `Bird`, and 
 
 ### Exercise 3: E-commerce System
 Develop an e-commerce system with classes for `Product`, `Customer`, `Order`, and `ShoppingCart`. Implement methods for placing orders, adding products to the cart, and calculating the total price.
+```python
+
+class Customer:
+    def __init__(self, name, email):
+        self.name = name
+        self.email = email
+
+
+class Order:
+    def __init__(self, customer, products):
+        self.customer = customer
+        self.products = products
+
+    def total_price(self):
+        total = 0
+        for product in self.products:
+            total += product.price
+        return total
+
+class ShoppingCart:
+    def __init__(self):
+        self.products = []
+
+    def add_product(self, product):
+        self.products.append(product)
+
+    def total_price(self):
+        total = 0
+        for product in self.products:
+            total += product.price
+        return total
+```
 
 ### Exercise 4: Social Media Platform
 Build a simple social media platform with classes for `User`, `Post`, and `Comment`. Implement features such as posting, commenting, and tracking user activities.
