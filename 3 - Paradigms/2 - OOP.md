@@ -264,8 +264,47 @@ Object-Oriented Programming (OOP) is a powerful paradigm that provides a way to 
 
      In summary, static and class methods provide ways to define methods that are associated with a class rather than an instance. Static methods are independent of the class state, while class methods can interact with class-level attributes using the cls reference.
 
+### 13. **`property` decorator:**
+- **Definition:** The `property` decorator allows defining properties (getter, setter, deleter) on a class to access class attributes.
+- **Example:**
+```python
+class Person:
+    def __init__(self, name):
+        self.__name = name
 
-### 13. **Special methods in Python:**
+    @property
+    def name(self):
+        """Getter method to get the value of the 'name' attribute."""
+        return self.__name
+
+    @name.setter
+    def name(self, name):
+        """Setter method to set the value of the 'name' attribute."""
+        self.__name = name
+
+    @name.deleter
+    def name(self):
+        """Deleter method to delete the 'name' attribute."""
+        del self.__name
+
+# Example Usage:
+
+person = Person("John Doe")
+
+# Using the getter method
+print(person.name)
+
+# Using the setter method
+person.name = "Jane Doe"
+print(person.name)
+
+# Using the deleter method
+del person.name
+print(person.name)
+
+```
+
+### 14. **Special methods in Python:**
 Also known as "magic methods" or "dunder methods" (due to the double underscores, i.e., "dunder"), provide a way for classes to define or customize certain behaviors. These methods are invoked by the interpreter in specific situations and allow you to define how instances of your class should behave in various contexts. Here are some commonly used special methods:
 
 ### `__init__`:

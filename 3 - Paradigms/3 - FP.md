@@ -20,7 +20,7 @@ Functional Programming (FP) is a programming paradigm that treats computation as
    def apply(func, value):
        return func(value)
 
-   result = apply(square, 5)  # Returns 25
+   result = apply(square_function, 5)  # Returns 25
    ```
 
 ### 2. **Pure Functions:**
